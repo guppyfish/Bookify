@@ -1,20 +1,55 @@
 .pagetop {
 	
+	margin: 5px;
+	float: left;
+	float: top;
+}
+
+.pagetop .text{
+	border-radius: 10px;
+	background: white;
+	border-color: rgb(154, 90, 39);
+	border-style: solid;
+	border-width: 2px;
 }
 
 .pagetop h1 {
-	font-family: Georgia, Arial;
+	font-family: Georgia, Arial, sans-sarif;
 	color: white;
 	text-shadow: 2px 2px 2px grey;
 	font-style: italic;
-	
-	padding
+}
+
+body {
+	background: rgb(185,140,100);
+	background-image: -webkit-gradient(linear , 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+	background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+	background-size: 20px 20px;
+	color: white;
+	font-family: georgia, arial, sans-sarif;
+	font-weight: bold;
+}
+
+.button1 {
+	color: white;
+	border-radius: 10px;
+	background: rgb(150,150,150);
+	border-style: ridge;
+	border-color: rgb(100,100,100);
+	border-width: 10px;
+	font-family: arial;
+	float: left;
+	padding: 20px;
+	font-size: 1em;
+
 	
 }
-body {
-	background: rgb(180,150,100);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
-	background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+
+.button1:hover{
+	background: grey;
+	border-style: groove;
+	
+	
 }
 
 
