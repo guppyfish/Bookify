@@ -12,7 +12,9 @@
     <meta name="HandheldFriendly" content="true">
   </head>
   <body>
-    <form name="input" action="" method="get"> Search → <input name="user" type="text">
-      <input value="Submit" type="submit"> </form>
+    <form name="input" action="html_form_action.asp" method="get">
+      Search → <input name="user" type="text">
+      <input value="Submit" type="submit">
+    </form>
   </body>
 </html>
