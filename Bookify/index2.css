@@ -1,7 +1,28 @@
+.pagetop {
+	
+}
 
-background: -webkit-gradient(linear, left top, left bottom, from(#00f), to(#fff));
+.pagetop h1 {
+	font-family: Georgia, Arial;
+	color: white;
+	text-shadow: 2px 2px 2px grey;
+	font-style: italic;
+	
+	padding
+	
+}
+body {
+	background: rgb(180,150,100);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.5, transparent), to(transparent));
+	background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+}
+
+
+
+
+/* background: -webkit-gradient(linear, left top, left bottom, from(#00f), to(#fff));
 background: -moz-linear-gradient(top, #00f, #fff);
 
 ^
 |
-nice gradienty stuff for webkit and firefox (use for buttons? maybe?)
+nice gradienty stuff for webkit and firefox (use for buttons? maybe?) */
