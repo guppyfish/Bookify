@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bookify</title>
+	<link rel="stylesheet" type="text/css" href="index2.css" />
+    <meta content="Mayank Gupta" name="author">
+    <meta content="Read, Discover, Share." name="description">
+    <meta content="BlueGriffon wysiwyg editor" name="generator">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+  </head>
+  <body>
+  <div class="pagetop"><h1> Bookify</h1>
+    <form name="input" action="" method="get"> Search → <input name="user" type="text">
+      <input value="Submit" type="submit"> </form>
+	  </div>
+	  
+  </body>
+</html>
